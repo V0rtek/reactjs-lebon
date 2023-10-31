@@ -1,3 +1,4 @@
+import ContactTable from './ContactTable.js';
 import SearchBar from './SearchBar.js';
 // Checké le tutoriel github du prof.
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <h1>Filterable React List</h1>
       <SearchBar />
+      <ContactTable/>
     </div>
   );
 }
