@@ -14,7 +14,8 @@ function ContactTable() {
       email: 'toasdasdasdm@gmail.com'},
   ];
 
-  const jsxData = data.map((elt) => (<ContactRow
+  const jsxData = data.map((elt, index) => (<ContactRow
+    key={index}
     name={elt.name}
     phone={elt.phone}
     email={elt.email}/>));
